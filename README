@@ -1,0 +1,6 @@
+# Inital docs
+# Mike Nugent 20100808
+
+read-mysql:
+   This dir contains code to read data from the mysql binary logs and split them up into parsable SQL for the insert code 
+
