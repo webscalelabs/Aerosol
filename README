@@ -1,5 +1,6 @@
-# Inital docs
+# The project is GPL-v2
 # Mike Nugent 20100808
+# michael (at symbol) michaelnugent - org
 
 read-mysql:
     This dir contains code to read data from the mysql binary logs and split them up into parsable SQL for the insert code 

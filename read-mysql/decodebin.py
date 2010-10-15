@@ -1,5 +1,9 @@
 #!/usr/bin/python
 
+# Michael Nugent
+# michael (at symbol) michaelnugent - org
+# GPL-v2
+
 import sys,re
 import mmap
 from struct import unpack
