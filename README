@@ -2,5 +2,10 @@
 # Mike Nugent 20100808
 
 read-mysql:
-   This dir contains code to read data from the mysql binary logs and split them up into parsable SQL for the insert code 
+    This dir contains code to read data from the mysql binary logs and split them up into parsable SQL for the insert code 
 
+read-mysql/decodebin.py:
+    Working on building out a decoder.  This is far from refined, I'm just trying to break up what's there to start with
+
+read-mysql/splitbinlog.py
+    Works with mysqlbinlog to get SQL statements
