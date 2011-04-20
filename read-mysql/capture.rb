@@ -25,7 +25,8 @@ ARGF.read.split("\n").each do |line|
         col_names << col[:Field]
       end
       build = build.gsub(/@(\d+)/) do |s|
-        n = s[1..s.size].to_i - 1
+        #n = s[1..s.size].to_i - 1
+        n = s[1..-1].to_i - 1
         col_names[n]
       end
 
